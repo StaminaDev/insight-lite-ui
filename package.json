@@ -1,8 +1,30 @@
 {
-  "name": "insight-lite-ui",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
-  "version": "0.4.6",
-  "repository": "git://github.com/litecoin-project/insight-lite-ui.git",
+  "_from": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git",
+  "_id": "insight-lite-ui@0.4.6",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/insight-lite-ui",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git",
+    "rawSpec": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git",
+    "saveSpec": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git",
+    "fetchSpec": "https://git@github.com/staminaexplorers/insight-lite-ui.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git#1d5705262aba7a7e096e8a2555f4443b01354bc6",
+  "_spec": "git+https://git@github.com/staminaexplorers/insight-lite-ui.git",
+  "_where": "/home/litecoin/insight",
+  "bitcoreNode": "litecore-node",
+  "bugs": {
+    "url": "https://github.com/bitpay/insight-ui/issues"
+  },
+  "bundleDependencies": false,
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -25,11 +47,23 @@
       "email": "bechilandia@gmail.com"
     }
   ],
-  "bugs": {
-    "url": "https://github.com/bitpay/insight-ui/issues"
+  "dependencies": {},
+  "deprecated": false,
+  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the litecoin network and build your own services with it.",
+  "devDependencies": {
+    "bower": "~1.2.8",
+    "grunt": "~0.4.2",
+    "grunt-angular-gettext": "^0.2.15",
+    "grunt-cli": "~0.1.11",
+    "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-watch": "*",
+    "grunt-css": "~0.5.4",
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
   },
   "homepage": "https://github.com/litecoin-project/insight-lite-ui",
-  "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
@@ -38,19 +72,11 @@
     "litecore",
     "front-end"
   ],
-  "bitcoreNode": "litecore-node",
-  "dependencies": {},
-  "devDependencies": {
-    "bower": "~1.2.8",
-    "grunt": "~0.4.2",
-    "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-uglify": "~0.3.2",
-    "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
-    "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
-  }
+  "license": "MIT",
+  "name": "insight-lite-ui",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/litecoin-project/insight-lite-ui.git"
+  },
+  "version": "0.4.6"
 }

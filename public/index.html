@@ -7,12 +7,12 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 	<meta name="fragment" content="!">
 	<title data-ng-bind="$root.title + $root.titleDetail + ' | Insight'">LTC Explorer</title>
-	<meta name="keywords" content="litecoins, transactions, blocks, address, block chain, best block, mining difficulty, hash serialized">
-	<meta name="description" content="Litecoin Insight. View detailed information on all litecoin transactions and block. {{ $root.title + $root.titleDetail }}">
-	<link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+	<meta name="keywords" content="litecoins, transactions, blocks, guarda, changenow, address, block chain, best block, mining difficulty, hash serialized">
+	<meta name="description" content="Litecoin Blockexplorer.Check your LTC transactions and blocks.">
+	<link rel="shortcut icon" href="img/icons/favicon.png" type="image/png">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,400italic">
 	<link rel="stylesheet" href="css/main.min.css">
-  <link rel="stylesheet" href="css/guarda.css">
+  <link rel="stylesheet" href="css/guarda.css?v=1.2.4">
 </head>
 <body ng-cloak class="ng-cloak">
   <div>
@@ -58,15 +58,18 @@
         <span> &middot; </span>
         <a href="tx/send" translate>broadcast transaction</a>
         ]
-        <p>Donate ETH: RTWi36qPhwf3XMuN3hy6gVr8JCPhGWz8Eq</p>
+        <p>Donate LTC: LgDBLnvcx9AAWv1X7Ed2C4Abwr2LYSXbRC</p>
       </div>
-      <a class="m10v pull-right email" target="_blank" href="mailto:btcblockexplorer@gmail.com">litecoinblockexplorer@gmail.com </small></a>
-    </div>
+      <a class="m10v pull-right email" target="_blank" href="mailto:litecoinblockexplorer@gmail.com">litecoinblockexplorer@gmail.com </small></a><br>
+     <a class="pull-right links coin-link" href=" https://coincodex.com/crypto/litecoin/" target="_blank"> https://coincodex.com/crypto/litecoin/</a>
+   
+ </div>
 </div>
   <script language="javascript">window.apiPrefix = '/api';</script>
 	<script src="/socket.io/socket.io.js"></script>
 	<script src="js/vendors.min.js"></script>
 	<script src="js/angularjs-all.min.js"></script>
 	<script src="js/main.min.js"></script>
+        <script src="https://widgets.coingecko.com/coingecko-coin-list-widget.js"></script>
 </body>
 </html>
